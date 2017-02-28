@@ -1,0 +1,85 @@
+DECLARE variabel awal Score
+DECLARE jawaban1.jawaban2,jawaban3,jawaban4,jawaban5
+
+DECLARE variabel pertanyaan1
+           SHOW "Pertanyaan 1 :Apa Ibu kota negara Filipina"
+		   
+		   IF 
+		     jawaban1 variabel pertanyaan1 mengunakan teks hruuf kecil artinya sama aja dengan menggunakan huruf besar
+             variabel quizscore bertambah satu 
+              SHOW "Jawaban anda benar"
+			ELSE
+			  jika jawaban1 salah
+			  SHOW "Jawaban anda salah"
+			  
+			  
+DECLARE variabel pertanyaan2
+           SHOW "Pertanyaan 2 :Apa Ibu kota negara Jepang"
+		   
+		   IF 
+		     jawaban2 variabel pertanyaan2 mengunakan teks hruuf kecil artinya sama aja dengan menggunakan huruf besar
+             variabel quizscore bertambah satu 
+              SHOW "Jawaban anda benar"
+			ELSE
+			  jika jawaban2 salah
+			  SHOW "Jawaban anda salah"			  
+			  
+			  
+			  
+
+DECLARE variabel pertanyaan3
+           SHOW "Pertanyaan 3 :Apa Ibu kota negara Perancis"
+		   
+		   IF 
+		     jawaban3 variabel pertanyaan3 mengunakan teks hruuf kecil artinya sama aja dengan menggunakan huruf besar
+             variabel quizscore bertambah satu 
+              SHOW "Jawaban anda benar"
+			ELSE
+			  jika jawaban3 salah
+			  SHOW "Jawaban anda salah"	
+
+DECLARE variabel pertanyaan4
+           SHOW "Pertanyaan 4 :Apa Ibu kota negara Italia"
+		   
+		   IF 
+		     jawaban4 variabel pertanyaan4 mengunakan teks hruuf kecil artinya sama aja dengan menggunakan huruf besar
+             variabel quizscore bertambah satu 
+              SHOW "Jawaban anda benar"
+			ELSE
+			  jika jawaban3 salah
+			  SHOW "Jawaban anda salah"		
+
+DECLARE variabel pertanyaan5
+           SHOW "Pertanyaan 5 :Apa Ibu kota negara Thailand"
+		   
+		   IF 
+		     jawaban5 variabel pertanyaan5 mengunakan teks hruuf kecil artinya sama aja dengan menggunakan huruf besar
+             variabel quizscore bertambah satu 
+              SHOW "Jawaban anda benar"
+			ELSE
+			  jika jawaban3 salah
+			  SHOW "Jawaban anda salah"		
+
+DECLARE Hasil Score
+
+        IF
+            varabel quizscore samadengan 5
+
+            SHOW "Anda mendapatkan medali emas" di tambah dengan hasil scorequiz di tambah dengan "jawaban yang benar"
+		
+		ELSE  IF
+            varabel quizscore sama dengan 4 & score quiz sama dengan 3 
+
+            SHOW "Anda mendapatkan medali perak" di tambah dengan hasil scorequiz di tambah dengan "jawaban yang benar"
+		
+		
+		ELSE  IF
+            varabel quizscore samadengan 2 & scorequiz samadengan 1
+
+            SHOW "Anda mendapatkan medali perunggu" di tambah dengan hasil scorequiz di tambah dengan "jawaban yang benar"
+			
+		ELSE 
+		  SHOW Skor kamu 0  & anda tidak mendapatkan apa-apa ,jawaban anda sslah semua"
+			  			  
+			  
+			  			  

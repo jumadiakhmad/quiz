@@ -15,7 +15,7 @@
  quizScore = quizScore + 1 ;
  alert ( 'Ya jawaban anda benar ' );
  } else {
- alert ( 'maaf jawaban anda salah' );
+ alert ( 'Maaf jawaban anda salah' );
  }
 
  var pertanyaan2 = prompt ( 'Pertanyaan 2 : Apa Ibu kota negara Jepang ? ' );
@@ -23,15 +23,15 @@
  quizScore = quizScore + 1 ;
  alert ( 'Ya jawaban anda benar' );
  } else {
- alert ( 'maaf jawaban anda salah' );
+ alert ( 'Maaf jawaban anda salah' );
  }
 
  var pertanyaan3 = prompt ( 'Pertanyaan  3: Apa ibu kota negara Perancis' );
  if ( pertanyaan3 . toUpperCase () === jawaban3 ) {
  quizScore = quizScore + 1 ;
- alert ( 'That is correct!' );
+ alert ( 'Ya jawaban amda benar' );
  } else {
- alert ( 'Sorry that is incorrect.' );
+ alert ( 'Maaf jawban anda salah' );
  }
 
  var pertanyaan4 = prompt ( 'Pertanyaan 4 :Apa ibu kota negara Italia' );
